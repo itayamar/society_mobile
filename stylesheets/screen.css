@@ -1,0 +1,19 @@
+@media screen and (min-width: 700px) {
+  html body #container #join .content {
+    display: inline-block; }
+    html body #container #join .content #promoText {
+      width: 45%;
+      display: inline-block; }
+    html body #container #join .content .applyWrap {
+      display: inline-block;
+      vertical-align: top;
+      width: 45%; } }
+@media screen and (min-width: 851px) {
+  html body #container #join header .menu {
+    display: inline-block; }
+    html body #container #join header .menu ul {
+      margin: 1em 0; }
+      html body #container #join header .menu ul li {
+        background-color: transparent; } }
+
+/*# sourceMappingURL=screen.css.map */

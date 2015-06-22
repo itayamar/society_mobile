@@ -1,0 +1,206 @@
+html {
+  font-size: 16px;
+  width: 100%;
+  min-width: 380px; }
+  html body {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    box-sizing: border-box;
+    /***********************************
+    ***********PAGE CONTAINER***********
+    ***********************************/ }
+    html body a {
+      text-decoration: none;
+      color: white; }
+    html body a:hover {
+      color: gray;
+      text-decoration: none; }
+    html body p {
+      font-size: 1.0625em; }
+    html body h1 {
+      font-size: 1.9375em;
+      font-weight: 400; }
+    html body h2 {
+      font-size: 1.859em;
+      font-weight: 400; }
+    html body .content {
+      padding: .5em;
+      z-index: 99;
+      position: relative;
+      text-align: center; }
+    html body ul {
+      list-style-type: none; }
+    html body .bgOpacity {
+      position: relative;
+      min-height: 672px; }
+      html body .bgOpacity::after {
+        content: "";
+        background-color: black;
+        opacity: 0.45;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: 1; }
+    html body .arrowDown {
+      height: 10%;
+      width: 10%;
+      margin: 5% auto; }
+    html body #container {
+      /***********************************
+      *************JOIN PAGE**************
+      ***********************************/ }
+      html body #container #join {
+        background: url("../imgs/applyFormBG.jpg") no-repeat 20%;
+        background-size: cover; }
+        html body #container #join header {
+          padding-top: 0.5em; }
+          html body #container #join header img {
+            max-height: 3.75em;
+            z-index: 99;
+            position: relative; }
+          html body #container #join header .menu {
+            z-index: 100;
+            background-color: transparent; }
+            html body #container #join header .menu ul {
+              margin-top: 3em;
+              margin-right: auto; }
+              html body #container #join header .menu ul li {
+                background-color: #244f52; }
+        html body #container #join .content #promoText {
+          position: relative;
+          z-index: 95; }
+        html body #container #join .content .applyWrap {
+          background: url("../imgs/formImg.jpg") no-repeat;
+          background-size: cover;
+          border-radius: 5px;
+          border: 1px solid white;
+          padding: 1em 1em 2em;
+          max-width: 365px;
+          margin: 0 auto; }
+          html body #container #join .content .applyWrap p {
+            font-weight: 800;
+            position: relative;
+            text-align: center; }
+          html body #container #join .content .applyWrap #applyFormContainer {
+            width: 80%;
+            margin: 0 auto;
+            padding-bottom: .5em; }
+            html body #container #join .content .applyWrap #applyFormContainer form > table {
+              font-size: 0.85em;
+              table-layout: fixed;
+              position: relative; }
+              html body #container #join .content .applyWrap #applyFormContainer form > table td input {
+                width: 100%;
+                padding: 0.625em 0.2em;
+                margin-bottom: 0.3em;
+                color: black;
+                border: 0;
+                border-radius: 5px; }
+              html body #container #join .content .applyWrap #applyFormContainer form > table td button {
+                box-sizing: border-box;
+                width: 102%;
+                height: 2.375em;
+                border: 0;
+                border-radius: 5px;
+                background-color: #29aae1; }
+              html body #container #join .content .applyWrap #applyFormContainer form > table tr:first-child td input {
+                width: 96%; }
+              html body #container #join .content .applyWrap #applyFormContainer form > table tr:first-child td:last-child input {
+                margin-left: 4%; }
+      html body #container #benefits {
+        background: url("../imgs/benefitsBG.jpg") no-repeat 20%;
+        background-size: cover; }
+        html body #container #benefits .content .companiesWrap {
+          width: 80%;
+          margin: 0 auto; }
+          html body #container #benefits .content .companiesWrap .companies {
+            display: inline-block;
+            width: 40%;
+            padding-left: 1em; }
+            html body #container #benefits .content .companiesWrap .companies img {
+              width: 60%;
+              max-width: 150px;
+              position: relative;
+              top: -0.5em; }
+            html body #container #benefits .content .companiesWrap .companies li {
+              position: relative; }
+              html body #container #benefits .content .companiesWrap .companies li::before {
+                content: "";
+                background-color: white;
+                width: 60%;
+                max-width: 150px;
+                height: 80%;
+                border-radius: 5px;
+                position: absolute;
+                z-index: -1; }
+        html body #container #benefits .content #comList1 {
+          float: left; }
+        html body #container #benefits .content #comList2 {
+          padding: 0 1em; }
+      html body #container #events {
+        background: url("../imgs/eventsBG.jpg") no-repeat;
+        background-size: cover; }
+        html body #container #events .eventsList {
+          max-width: 525px;
+          width: 80%;
+          margin: 0 auto;
+          padding: 0; }
+          html body #container #events .eventsList .eventDetails {
+            border: 1px solid white;
+            border-radius: 5px;
+            margin-bottom: 1em;
+            padding: 0 0 0.8em; }
+            html body #container #events .eventsList .eventDetails .eventImage {
+              float: left; }
+              html body #container #events .eventsList .eventDetails .eventImage img {
+                margin: 8% 6%; }
+            html body #container #events .eventsList .eventDetails p {
+              margin: 0 0 0 7em;
+              text-align: left; }
+            html body #container #events .eventsList .eventDetails .eventName {
+              margin-top: 1.5em;
+              font-weight: bold; }
+      html body #container #contact .contactOpt {
+        text-align: center;
+        margin: 4.56em auto 4.56em; }
+        html body #container #contact .contactOpt .contactBttn {
+          background-color: black;
+          border: 1px solid white;
+          color: white;
+          font-size: 1.0625em;
+          padding: 1em 4em;
+          border-radius: 5px; }
+      html body #container footer {
+        background-color: #202020;
+        font-size: 0.8125em;
+        padding-bottom: 1em; }
+        html body #container footer div {
+          display: inline-block; }
+        html body #container footer ul {
+          padding-left: 0.2em; }
+          html body #container footer ul li {
+            margin: 0;
+            display: inline-block; }
+            html body #container footer ul li a {
+              text-decoration: underline;
+              padding: 0.5em; }
+        html body #container footer #icons {
+          width: 100%;
+          display: inline-block; }
+          html body #container footer #icons .socialIcons {
+            float: left;
+            width: 20%; }
+            html body #container footer #icons .socialIcons img {
+              width: 38%;
+              max-width: 35px; }
+          html body #container footer #icons .collaborationIcons {
+            width: 75%;
+            margin-left: 1em; }
+            html body #container footer #icons .collaborationIcons img {
+              width: 30%;
+              max-width: 128px; }
+
+/*# sourceMappingURL=main.css.map */

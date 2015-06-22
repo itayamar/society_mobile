@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <title>society project</title>
+
+    <link href="node_modules/normalize.css/normalize.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="stylesheets/menu.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/screen.css">
+</head>
+<body>
+    <div id="container">
+        <section id="join" class="bgOpacity">
+            <header>
+                <a href="#"><img src="imgs/LOGO.png" alt="logo"></a>
+                    <input type="checkbox" id="navbar-checkbox" class="navbar-checkbox">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#benefits">BENEFITS</a></li>
+                            <li><a href="#events">EVENTS</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                            <li><a href="#">LOGIN</a></li>
+                            <li><a href="#">JOIN SOCIETY</a></li>
+                        </ul>
+                        <label for="navbar-checkbox" class="navbar-handle"></label>
+                    </nav>
+                </header>
+            <div class="content">
+                <div id="promoText">
+                    <h1>
+                        Society Card is an Exclusive Credit Card for CEOs, Founders and Entrepreneurs in the Israeli tech industry.
+                    </h1>
+                    <p>
+                        We provide our members with Premier Benefits, Exclusive Events and a Networking Platform.
+                    </p>
+                </div>
+                <div class="applyWrap">
+                    <p>Apply for a Society - Card</p>
+                    <div id="applyFormContainer">
+                        <form>
+                            <table>
+                                <tr>
+                                    <td><input type='text' placeholder="First*"></td>
+                                    <td><input type='text' placeholder="Last*"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><input type='email' placeholder="Email*"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><input type='text' placeholder="Where do you live?*"/></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><input type='tel' placeholder="Phone*"/></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><input type='text' placeholder="Company*"/></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><input type='text' placeholder="How did you hear about us?*"/></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <button class="sendBttn">Send</button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+                <div class="arrowDown"><a href="#benefits"><img src="imgs/arrowDown.png" alt="down_arrow"></a></div>
+            </div>
+        </section>
+        <section id="benefits" class="bgOpacity">
+            <div class="content">
+                <h1>BENEFITS</h1>
+                <p>Society Card Holders enjoy preferred pricing and premier benefits from leading Hotels, Airlines, Travel Utilities,
+                    Business Services and Lifestyle Companies.
+                </p>
+                <div class="companiesWrap">
+                    <ul id="comList1" class="companies">
+                        <li><img src="imgs/avisIcon.png"></li>
+                        <li><img src="imgs/rackspaceIcon.png"></li>
+                        <li><img src="imgs/seevIcon.png"></li>
+                        <li><img src="imgs/weworkIcon.png"></li>
+                        <li><img src="imgs/amazonIcon.png"></li>
+                    </ul>
+                    <ul id="comList2" class="companies">
+                        <li><img src="imgs/linkedInIcon.png"></li>
+                        <li><img src="imgs/carlsonIcon.png"></li>
+                        <li><img src="imgs/plazaIcon.png"></li>
+                        <li><img src="imgs/sxswIcon.png"></li>
+                        <li><img src="imgs/meitavIcon.png"></li>
+                    </ul>
+                </div>
+                <div class="arrowDown"><a href="#events"><img src="imgs/arrowDown.png" alt="down_arrow"></a></div>
+            </div>
+        </section>
+        <section id="events" class="bgOpacity">
+            <div class = "content">
+                <h1>EVENTS</h1>
+                <p>Society Card Holders are invited to exclusive Events throughout the year where they're
+                    given the opportunity to network  while enjoying top professional and cultural content.
+                </p>
+                <ul class="eventsList">
+                    <li class = "eventDetails">
+                        <span class = "eventImage"><img src="imgs/calendar-icon.png"></span>
+                        <span class = "eventText">
+                            <p class = "eventName">Event Name</p>
+                            <p class = "eventDescription">San Francisco, CA <br>
+                                April 12-16, 2015</p>
+                        </span>
+                    </li>
+                    <li class = "eventDetails">
+                        <span class = "eventImage"><img src="imgs/calendar-icon.png"></span>
+                        <span class = "eventText">
+                            <p class = "eventName">Event Name</p>
+                            <p class = "eventDescription">San Francisco, CA <br>
+                                April 12-16, 2015</p>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="contact">
+            <div class = "contactOpt">
+                <h1 >
+                    HAVE A QUESTION?
+                </h1>
+                <button class="contactBttn">Contact Us</button>
+            </div>
+        </section>
+        <footer>
+            <div id="root">
+                <div id="root_footer"></div>
+            </div>
+            <div id="footer">
+                <div>Society Card (C) 2015. All Rights Reserved.</div>
+                <div>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Partnership Inquiries</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div id="icons">
+                    <div class = "collaborationIcons">
+                        <span>
+                            <a href="#"><img src="imgs/leumiTechIcon.png"></a>
+                            <a href="#"><img src="imgs/leumiIcon.png"></a>
+                                <a href="#"><img src="imgs/elevatorIcon.png"></a>
+                        </span>
+                    </div>
+                    <div class="socialIcons">
+                        <a href="#"><img src="imgs/facebook.png"></a>
+                        <a href="#"><img src="imgs/twitter.png"></a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

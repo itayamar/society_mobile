@@ -1,0 +1,45 @@
+@media screen and (min-width: 700px) {
+  html {
+    body {
+      #container {
+        #join{
+          .content {
+            display: inline-block;
+            #promoText{
+              width: 45%;
+              display: inline-block;
+            }
+            .applyWrap{
+              display: inline-block;
+              vertical-align: top;
+              width: 45%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 851px) {
+  html {
+    body {
+      #container {
+        #join {
+          header {
+            .menu {
+              display: inline-block;
+              ul {
+                margin: 1em 0;
+                li {
+                  background-color: transparent;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

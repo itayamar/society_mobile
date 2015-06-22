@@ -1,0 +1,102 @@
+html {
+  font-size: 16px;
+  width: 100%; }
+  html body {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    box-sizing: border-box;
+    /***********************************
+    ***********PAGE CONTAINER***********
+    ***********************************/ }
+    html body a {
+      text-decoration: none;
+      color: white; }
+    html body a:hover {
+      color: gray;
+      text-decoration: none; }
+    html body p {
+      font-size: 1.0625em; }
+    html body h1 {
+      font-size: 1.9375em;
+      font-weight: 400; }
+    html body h2 {
+      font-size: 1.859em;
+      font-weight: 400; }
+    html body #container {
+      /***********************************
+      *************JOIN PAGE**************
+      ***********************************/ }
+      html body #container #join {
+        background: url("../imgs/applyFormBG.jpg") no-repeat;
+        background-position: 20%;
+        background-size: cover; }
+        html body #container #join header img {
+          max-height: 3.75em;
+          z-index: 99;
+          position: relative; }
+        html body #container #join header .menu {
+          z-index: 99; }
+          html body #container #join header .menu ul {
+            margin-top: 3em;
+            margin-right: auto; }
+            html body #container #join header .menu ul li {
+              background-color: #244f52; }
+        html body #container #join .content {
+          padding: .5em;
+          z-index: 99;
+          position: relative; }
+          html body #container #join .content #promoText {
+            position: relative;
+            z-index: 95; }
+          html body #container #join .content .applyWrap {
+            background: url("../imgs/formImg.jpg") no-repeat;
+            background-size: cover;
+            border-radius: 5px;
+            border: 1px solid white; }
+            html body #container #join .content .applyWrap p {
+              font-weight: 800;
+              position: relative;
+              text-align: center; }
+            html body #container #join .content .applyWrap #applyFormContainer {
+              width: 80%;
+              margin: 0 auto;
+              padding-bottom: .5em; }
+              html body #container #join .content .applyWrap #applyFormContainer form > table {
+                font-size: 0.85em;
+                table-layout: fixed;
+                position: relative; }
+                html body #container #join .content .applyWrap #applyFormContainer form > table td input {
+                  width: 100%;
+                  padding: 0.625em 0.2em;
+                  margin-bottom: 0.3em;
+                  color: black;
+                  border: 0;
+                  border-radius: 5px; }
+                html body #container #join .content .applyWrap #applyFormContainer form > table td button {
+                  box-sizing: border-box;
+                  width: 102%;
+                  height: 2.375em;
+                  border: 0;
+                  border-radius: 5px;
+                  background-color: #29aae1; }
+                html body #container #join .content .applyWrap #applyFormContainer form > table tr:first-child td input {
+                  width: 96%; }
+                html body #container #join .content .applyWrap #applyFormContainer form > table tr:first-child td:last-child input {
+                  margin-left: 4%; }
+          html body #container #join .content .arrowDown {
+            height: 10%;
+            width: 10%;
+            margin: 5% auto; }
+        html body #container #join::after {
+          content: "";
+          background-color: #020000;
+          opacity: 0.45;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          position: absolute;
+          z-index: 1; }
+
+/*# sourceMappingURL=main.css.map */
