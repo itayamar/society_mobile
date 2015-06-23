@@ -4,7 +4,7 @@
   html body #container #join header .menu {
     font-size: 0.875em; }
   html body #container #join .content {
-    margin: 0 auto;
+    margin: 7% auto 0;
     text-align: left; }
     html body #container #join .content #promoText {
       width: 45%;
@@ -13,18 +13,25 @@
     html body #container #join .content .applyWrap {
       display: inline-block;
       vertical-align: top;
-      width: 45%; }
+      width: 45%;
+      max-width: 22.75em; }
+    html body #container #join .content .arrowDown {
+      margin-top: 10%; }
   html body #container #benefits .content .companiesWrap {
-    width: 80%; }
+    margin-top: 10%;
+    width: 80%;
+    max-width: 50em; }
     html body #container #benefits .content .companiesWrap .companies {
-      width: 100%; }
+      width: 100%;
+      margin: 0; }
       html body #container #benefits .content .companiesWrap .companies img {
         width: 90%; }
       html body #container #benefits .content .companiesWrap .companies li {
         display: inline-block;
         width: 19%; }
         html body #container #benefits .content .companiesWrap .companies li::before {
-          width: 99%; }
+          width: 99%;
+          height: 90%; }
   html body #container footer {
     min-height: 7.375em;
     width: 100%; }
@@ -34,6 +41,8 @@
     html body #container footer #icons .socialIcons {
       margin-top: 1.8em; } }
 @media screen and (min-width: 861px) {
+  html body .content > p span {
+    display: block; }
   html body #container #join header .menu {
     margin-left: 5%;
     display: inline-block;
@@ -55,6 +64,8 @@
       html body #container #join header .menu ul {
         margin: 1em 0; }
     html body #container #join .content {
-      width: 80%; } }
+      width: 80%; }
+    html body #container #benefits .content .companiesWrap .companies img {
+      width: 100%; } }
 
 /*# sourceMappingURL=screen.css.map */

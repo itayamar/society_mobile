@@ -13,7 +13,7 @@
               }
             }
             .content {
-              margin: 0 auto;
+              margin: 7% auto 0;
               text-align: left;
               //width: 80%;
               #promoText{
@@ -25,15 +25,22 @@
                 display: inline-block;
                 vertical-align: top;
                 width: 45%;
+                max-width: 22.75em
+              }
+              .arrowDown{
+                margin-top: 10%;
               }
             }//end .content
         }//end #join
         #benefits{
           .content{
             .companiesWrap{
+              margin-top: 10%;
               width: 80%;
+              max-width: 50em;
               .companies{
                 width: 100%;
+                margin: 0;
                 img{
                   width: 90%;
                 }
@@ -42,6 +49,7 @@
                   width: 19%;
                   &::before {
                     width: 99%;
+                    height: 90%;
                   }
                 }
               }
@@ -69,6 +77,11 @@
 @media screen and (min-width: 861px) {
   html {
     body {
+      .content{
+        >p span{
+          display: block;
+        }
+      }
       #container {
         #join {
           header {
@@ -113,12 +126,29 @@
                 margin: 1em 0;
               }
             }
-          }
+          }//end HEADER
           .content{
             width: 80%;
           }
-        }
-      }
-    }
-  }
+        }//end #join
+        #benefits{
+          .content {
+            .companiesWrap {
+              .companies {
+                img{
+                  width: 100%;
+                }
+                li{
+                  //padding: 0;
+                  &::before {
+
+                  }
+                }
+              }
+            }
+          }
+        }//end #benefits
+      }//end #container
+    }//end BODY
+  }//end //HTML
 }
