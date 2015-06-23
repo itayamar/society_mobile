@@ -1,6 +1,6 @@
 // Smaller menu when on small screen
 // All padding and margin are in em, so they will scale as well
-@media (min-width : 900px) {
+@media (min-width : 950px) {
   .menu {
     font-size: 1.2em;
   }
@@ -34,7 +34,7 @@
   }
 }
 
-@media (min-width : 851px) {
+@media (min-width : 861px) {
   .menu {
     li { // nested menu
       ul {
@@ -57,7 +57,7 @@
   }
 }
 
-@media (max-width : 850px) {
+@media (max-width : 860px) {
   .menu {
     > ul {
       max-height: 0;
