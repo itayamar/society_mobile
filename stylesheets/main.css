@@ -121,10 +121,10 @@ html {
           margin: 0 auto; }
           html body #container #benefits .content .companiesWrap .companies {
             display: inline-block;
-            width: 40%;
+            width: 45%;
             padding-left: 1em; }
             html body #container #benefits .content .companiesWrap .companies img {
-              width: 60%;
+              width: 70%;
               max-width: 150px;
               position: relative;
               top: -0.5em; }
@@ -133,7 +133,7 @@ html {
               html body #container #benefits .content .companiesWrap .companies li::before {
                 content: "";
                 background-color: white;
-                width: 60%;
+                width: 80%;
                 max-width: 150px;
                 height: 80%;
                 border-radius: 5px;
@@ -141,8 +141,6 @@ html {
                 z-index: -1; }
         html body #container #benefits .content #comList1 {
           float: left; }
-        html body #container #benefits .content #comList2 {
-          padding: 0 1em; }
       html body #container #events {
         background: url("../imgs/eventsBG.jpg") no-repeat 75%;
         background-size: cover; }

@@ -165,10 +165,10 @@ html {
             margin: 0 auto;
             .companies{
               display: inline-block;
-              width: 40%;
+              width: 45%;
               padding-left: 1em;
               img{
-                width: 60%;
+                width: 70%;
                 max-width: 150px;
                 position: relative;
                 top: -0.5em;
@@ -178,7 +178,7 @@ html {
                 &::before {
                   content: "";
                   background-color: white;
-                  width: 60%;
+                  width: 80%;
                   max-width: 150px;
                   height: 80%;
                   border-radius: 5px;
@@ -193,7 +193,7 @@ html {
           float: left;
         }
         #comList2{
-          padding: 0 1em;
+          //padding: 0 1em;
         }
         }//end .content
       }//end #benefits
